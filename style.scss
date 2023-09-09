@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    body {
+        width: 100%;
+
+        .nav-container {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+
+            .icon-container {
+                margin: 10px;
+                font-size: 28px;
+                line-height: 30px;
+            }
+
+            .manu-container {
+                ul {
+                    display: flex;
+
+                    li {
+                        display: inline;
+                        margin: 3px;
+
+                        a {
+                            text-decoration: none;
+                            color: black;
+                            margin-right: 15px;
+                            font-size: 25px;
+
+                            
+                        }
+                        a:hover {
+                            font-size: 30px;
+                            font-weight: bold;
+                            transition: .4s all ease-in;
+                            color: rgba(255, 141, 34, 0.884);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

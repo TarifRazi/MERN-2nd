@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+* body {
+  width: 100%;
+}
+* body .nav-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+* body .nav-container .icon-container {
+  margin: 10px;
+  font-size: 28px;
+  line-height: 30px;
+}
+* body .nav-container .manu-container ul {
+  display: flex;
+}
+* body .nav-container .manu-container ul li {
+  display: inline;
+  margin: 3px;
+}
+* body .nav-container .manu-container ul li a {
+  text-decoration: none;
+  color: black;
+  margin-right: 15px;
+  font-size: 25px;
+}
+* body .nav-container .manu-container ul li a:hover {
+  font-size: 30px;
+  font-weight: bold;
+  transition: 0.4s all ease-in;
+  color: rgba(255, 141, 34, 0.884);
+}/*# sourceMappingURL=style.css.map */
