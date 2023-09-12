@@ -70,6 +70,35 @@
   top: 290px;
   right: 50px;
 }
+* body main .picake-container {
+  display: flex;
+  gap: 5px;
+  flex-direction: row-reverse;
+  margin: 20px;
+  margin-top: 100px;
+  justify-content: space-between;
+  align-items: center;
+}
+* body main .picake-container .picake-description {
+  width: 50%;
+}
+* body main .picake-container .picake-img-div {
+  flex: 1;
+  width: 50%;
+}
+* body main .picake-container .picake-img-div .picake-img {
+  width: 100%;
+}
+* body main .picake-container .picake-img-div .picake-img img {
+  width: 100%;
+}
+* body main .picake-container .picake-img-div .Chef2-div {
+  background: #000;
+  color: white;
+  padding: 10px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
 
 @media screen and (max-width: 576px) {
   body .nav-container {
