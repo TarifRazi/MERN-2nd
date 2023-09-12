@@ -126,4 +126,13 @@
     top: 120px;
     right: 10px;
   }
+  body main .picake-container {
+    flex-direction: column;
+  }
+  body main .picake-container .picake-description {
+    width: 100%;
+  }
+  body main .picake-container .picake-img-div {
+    width: 100%;
+  }
 }/*# sourceMappingURL=style.css.map */
