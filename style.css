@@ -107,6 +107,55 @@
   bottom: -30px;
   left: 30px;
 }
+* body footer {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background: rgb(48, 48, 48);
+  padding: 20px;
+  align-items: center;
+  color: white;
+}
+* body footer .useful-links {
+  text-align: center;
+}
+* body footer .useful-links ul {
+  margin-top: 8px;
+}
+* body footer .useful-links ul li {
+  display: block;
+}
+* body footer .useful-links ul li a {
+  text-decoration: none;
+  color: white;
+}
+* body footer .comment-area {
+  text-align: center;
+}
+* body footer .comment-area h4 {
+  padding-bottom: 10px;
+}
+* body footer .comment-area input {
+  padding: 10px 12px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  background-color: tomato;
+}
+* body footer .contact-div {
+  text-align: center;
+}
+* body footer .contact-div ul {
+  margin-top: 8px;
+}
+* body footer .contact-div ul li {
+  display: inline;
+}
+* body footer .contact-div ul li a {
+  text-decoration: none;
+  color: white;
+}
 
 @media screen and (max-width: 576px) {
   body .nav-container {
