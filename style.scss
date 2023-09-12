@@ -11,6 +11,7 @@
             flex-direction: row;
             justify-content: space-between;
             align-items: center;
+            margin-bottom: 10px;
 
             .icon-container {
                 margin: 10px;
@@ -46,6 +47,8 @@
             }
         }
 
+        
+
         main {
 
             // banner section
@@ -80,6 +83,9 @@
                             width: 100%;
                         }
 
+                        &:hover{
+                            box-shadow: 5px 5px 10px black;
+                        }
                     }
 
                     .Chef-div {
@@ -93,6 +99,8 @@
 
                     }
                 }
+
+               
             }
 
             .picake-container {
@@ -129,6 +137,10 @@
                         img {
                             width: 100%;
                         }
+
+                        &:hover{
+                            box-shadow: 5px 5px 10px black;
+                        }
                     }
 
                     .Chef2-div {
@@ -145,58 +157,104 @@
             }
         }
 
-        footer{
-            margin-top: 50px;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-around;
-            background: rgb(48, 48, 48);
-            padding: 20px;
-            align-items: center;
-            color: white;
-
-            .useful-links{
-                text-align: center;
-                ul{
-                    margin-top: 8px;
-                    li{
-                        display: block;
-                        a{
-                            text-decoration: none;
-                            color: white;
-                        }
-                    }
-                }
-            }
-
-            .comment-area{
-                text-align: center;
-               h4{
-                padding-bottom: 10px;
-               } 
-               input{
-                padding: 10px 12px;
+        footer {
+            background-color: rgb(5, 5, 5);
+            text-align: center;
+            .footer-elements {
+                margin-top: 50px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                background: rgb(48, 48, 48);
+                padding: 20px;
+                align-items: center;
                 color: white;
-                border: none;
-                border-radius: 5px;
-                background-color: tomato;
-               }
-            }
 
-            .contact-div{
-                text-align: center;
-                ul{
-                    margin-top: 8px;
-                    li{
-                        display: inline;
-                        a{
-                            text-decoration: none;
-                            color: white;
+                .useful-links {
+                    text-align: center;
+
+                    ul {
+                        margin-top: 8px;
+
+                        li {
+                            display: block;
+
+                            a {
+                                text-decoration: none;
+                                color: white;
+
+                                &:hover{
+                                    font-size: 20px;
+                                    color: coral;
+                                }
+                            }
                         }
                     }
                 }
+
+                .comment-area {
+                    text-align: center;
+
+                    h4 {
+                        padding-bottom: 10px;
+                    }
+
+                    textarea{
+                        border-radius: 5px;
+                        padding: 10px;
+                        &:hover{
+                            box-shadow: 4px 4px 10px white;
+                        }
+                    }
+
+                    input {
+                        margin-top: 10px;
+                        padding: 10px 12px;
+                        color: white;
+                        border: none;
+                        border-radius: 5px;
+                        background-color: tomato;
+
+                        &:hover {
+                            cursor: pointer;
+                            font-weight: bold;
+                            padding: 14px 16px;
+                            box-shadow: 3px 3px 8px white;
+                        }
+                    }
+                }
+
+                .contact-div {
+                    text-align: center;
+
+                    ul {
+                        margin-top: 8px;
+
+                        li {
+                            display: inline;
+
+                            a {
+                                text-decoration: none;
+                                color: white;
+                                margin: 5px;
+
+                                &:hover{
+                                    color: rgb(175, 0, 0);
+                                    font-size: 25px;
+                                    transition: all .3s ease-out;
+                                }
+                            }
+                        }
+                    }
+                }
+
             }
 
+            small{
+                color: white;
+                width: 100%;
+                width: 100%;
+            }
         }
     }
 }
@@ -247,12 +305,14 @@
                 }
             }
 
-            .picake-container{
+            .picake-container {
                 flex-direction: column;
-                .picake-description{
+
+                .picake-description {
                     width: 100%;
                 }
-                .picake-img-div{
+
+                .picake-img-div {
                     width: 100%;
                 }
             }
