@@ -33,6 +33,60 @@
 * body .nav-container .manu-container ul li a:hover {
   font-size: 30px;
   font-weight: bold;
-  transition: 0.4s all ease-in;
+  transition: all 0.4s ease-in;
   color: rgba(255, 141, 34, 0.884);
+}
+* body main .banner-container {
+  display: flex;
+  gap: 5px;
+  margin: 20px;
+  margin-top: 40px;
+  justify-content: space-between;
+  align-items: center;
+}
+* body main .banner-container .banner-description {
+  text-align: start;
+}
+* body main .banner-container .banner-description h2 {
+  margin-bottom: 8px;
+}
+* body main .banner-container .banner-img-div {
+  width: 100%;
+  position: relative;
+}
+* body main .banner-container .banner-img-div .banner-img {
+  width: 100%;
+}
+* body main .banner-container .banner-img-div .banner-img img {
+  width: 100%;
+}
+* body main .banner-container .banner-img-div .Chef-div {
+  background: #000;
+  color: white;
+  padding: 10px;
+  width: -moz-fit-content;
+  width: fit-content;
+  position: absolute;
+  top: 290px;
+  right: 50px;
+}
+
+@media screen and (max-width: 576px) {
+  body .nav-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  body .nav-container .manu-container ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  body main .banner-container {
+    flex-direction: column;
+  }
+  body main .banner-container .banner-img-div .Chef-div {
+    top: 120px;
+    right: 10px;
+  }
 }/*# sourceMappingURL=style.css.map */

@@ -32,17 +32,120 @@
                             margin-right: 15px;
                             font-size: 25px;
 
-                            
+
                         }
+
                         a:hover {
                             font-size: 30px;
                             font-weight: bold;
-                            transition: .4s all ease-in;
+                            transition: all .4s ease-in;
                             color: rgba(255, 141, 34, 0.884);
                         }
                     }
                 }
             }
         }
+
+        main {
+
+            // banner section
+            .banner-container {
+                display: flex;
+                gap: 5px;
+                margin: 20px;
+                margin-top: 40px;
+                justify-content: space-between;
+                align-items: center;
+
+                // border: 2px solid green;
+
+                .banner-description {
+                    text-align: start;
+
+                    h2 {
+                        margin-bottom: 8px;
+                    }
+                }
+
+                .banner-img-div {
+                    width: 100%;
+                    // border: 2px solid black;
+                    position: relative;
+
+
+                    .banner-img {
+                        width: 100%;
+
+                        img {
+                            width: 100%;
+                        }
+
+                    }
+
+                    .Chef-div {
+                        background: #000;
+                        color: white;
+                        padding: 10px;
+                        width: fit-content;
+                        position: absolute;
+                        top: 290px;
+                        right: 50px;
+
+                    }
+                }
+            }
+
+            
+        }
+    }
+}
+
+// responsive
+@media screen and (max-width:576px) {
+    body {
+        .nav-container {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            .manu-container {
+                ul {
+                    display: flex;
+                    flex-direction: column;
+                    text-align: center;
+                }
+            }
+        }
+
+        main {
+
+            // banner 
+            .banner-container {
+                flex-direction: column;
+
+                .banner-img-div{
+                    // .banner-img{
+
+                    // }
+
+                    .Chef-div{
+                        top: 120px;
+                        right: 10px;
+
+                        // h6{
+                        //     font-size: 10px;
+                        //     margin-bottom: 5px;
+                        // }
+                        // p{
+                        //     font-size: 8px;
+                        // }
+                        // h4{
+                        //     font-size: 15px;
+                        // }
+                    }
+                }
+            }
+        }
+
     }
 }
