@@ -68,7 +68,7 @@
   width: fit-content;
   position: absolute;
   top: 290px;
-  right: 50px;
+  right: 30px;
 }
 * body main .picake-container {
   display: flex;
@@ -81,10 +81,15 @@
 }
 * body main .picake-container .picake-description {
   width: 50%;
+  text-align: end;
+}
+* body main .picake-container .picake-description h2 {
+  margin-bottom: 8px;
 }
 * body main .picake-container .picake-img-div {
   flex: 1;
   width: 50%;
+  position: relative;
 }
 * body main .picake-container .picake-img-div .picake-img {
   width: 100%;
@@ -98,6 +103,9 @@
   padding: 10px;
   width: -moz-fit-content;
   width: fit-content;
+  position: absolute;
+  bottom: -30px;
+  left: 30px;
 }
 
 @media screen and (max-width: 576px) {
