@@ -318,5 +318,16 @@
             }
         }
 
+        footer{
+            .footer-elements{
+                flex-direction: column;
+                gap: 20px;
+
+                h4{
+                    color: lightblue;
+                }
+            }
+        }
+
     }
 }

@@ -224,4 +224,11 @@
   body main .picake-container .picake-img-div {
     width: 100%;
   }
+  body footer .footer-elements {
+    flex-direction: column;
+    gap: 20px;
+  }
+  body footer .footer-elements h4 {
+    color: lightblue;
+  }
 }/*# sourceMappingURL=style.css.map */
